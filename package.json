@@ -1,6 +1,6 @@
 {
   "name": "react-input-debouncer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Higher order component for debouncing input change events",
   "main": "dist/index.js",
   "scripts": {

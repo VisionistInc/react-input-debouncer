@@ -32,7 +32,7 @@ const debounceField = ({ delay = 250 } = {}) => (Component) => class extends Com
 
   componentWillReceiveProps({ value }) {
     if (value !== this.state.value) {
-      this.flush(); // flush the debounce before updating state from prop changes
+      this.onChange.flush(); // flush the debounce before updating state from prop changes
       this.setState({ value });
     }
   }
